@@ -1,5 +1,5 @@
 {% set name = "mpl_qt_viz" %}
-{% set version = "1.0.8" %}
+{% set version = "1.0.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mpl_qt_viz-{{ version }}.tar.gz
-  sha256: d6cfdae641489af5c54cdf96e73b0d4713ef5fb533444d91e3ad90f5ad924700
+  sha256: 07f464939b8ac0b74a319908c52b3be69cf01b5abb4c524845a8e26ef55bd803
 
 build:
   number: 0
